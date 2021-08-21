@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+    <!-- Head -->
+
+    <head>
+        <!-- Meta -->
+        <meta charset="UTF-8">
+        <meta name="description" content="Learn and refer to website development">
+        <meta name="author" content="Maximus">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Title -->
+        <title>Dr. Code</title>
+        <!-- CSS -->
+        <link href="D:\VS Code\My Programs\Sass\(Dr Code) style.css" rel="stylesheet">
+        <!-- Favicon -->
+        <link href="D:\VS Code\My Programs\Online Websites\Dr. Code\straular-logo.png" rel="shortcut icon" type="image/png">
+    </head>
+
+    <!-- Nav bar -->
+
+    <header style="transform: translateY(0px);" aria-hidden="true">
+
+        <ul id="logo">
+            <li>Dr. Code<br><span id="logo-span">Web development information</span></li>
+        </ul>
+
+        <nav>
+            <a href="D:\VS Code\My Programs\Online Websites\Dr. Code\More pages\(Dr Code) html.html">HTML</a>
+            <a href="D:\VS Code\My Programs\Online Websites\Dr. Code\More pages\(Dr Code) css.html">CSS</a>
+            <a id="current">JavaScript</a>
+        </nav>
+
+        <a href="D:\VS Code\My Programs\Online Websites\Dr. Code\(Dr Code) index.html" id="home-btn">Home</a>
+
+    </header>
+
+    <!-- Body -->
+
+    <body>
+        <div class="content">
+            <section style="border: 2px solid rgb(6, 7, 22); text-align: center; width: 30%; border-radius: 10px; margin-bottom: 100px;">
+                <h1 style="font-size: 4rem;">JS</h1><br><span style="color: goldenrod;position: relative;bottom: 50px;">JavaScript</span>
+            </section>
+
+            <h2>What is JavaScript?</h2>
+            <p style="width: 87ch; margin-bottom: 100px;">JavaScript, abbreviated as "JS", is a scripting language that adds interactivity and more to a website. HTML can either use embedded JavaScript or an external file.</p>
+
+            <h2>What is the use of JavaScript?</h2>
+            <p style="width: 87ch; margin-bottom: 100px;">JS creates interactivity to buttons and more! It makes web pages more entertaining, and it is used for <a href="https://work.chron.com/frontend-engineer-16867.html" class="web-link" target="_blank">Front-end engineering</a>.</p>
+
+            <h2>What is the difference between JS and Java?</h2>
+            <p style="width: 87ch; margin-bottom: 100px;">The difference between JavaScript and Java is that JS is a scripting language and Java is a programming language.</p>
+
+            <h2>What is the difference between JS and ECMAscript?</h2>
+            <p style="width: 87ch; margin-bottom: 100px;">ECMAscript is a language based on JavaScript. So, there is no difference between them. ECMAscript is also abbreviated as "ES6", the 6 is the current version (2020) of the language.</p>
+
+            <h2>Is JavaScript easy?</h2>
+            <p style="width: 87ch; margin-bottom: 120px;">JavaScript needs more understanding and concentration, it isn't easy for every one beginning to learning it.</p>
+
+
+            <h2 style="margin-bottom: 50px; border: 3px solid rgb(6, 7, 22); width: 50%; border-radius: 7px; padding: 10px; text-align: center;">JavaScript Syntax Examples</h2>
+
+            <div style="width: 100%; text-align: left;">
+
+                <div style="margin-bottom: 50px;">
+                    <h3>Variables</h3>
+                    <pre style="background-color: rgb(6, 7, 22); color: white; width: 40%; padding: 15px; padding-bottom: 3px; border-radius: 10px;">
+                        <span style="position: relative; right: 250px;">
+                            <span style="color:crimson;">var</span> <span style="color:aquamarine;">y</span> = <span style="color:gold;">"I have "</span>;
+                            <span style="color:crimson;">const</span> <span style="color:aquamarine;">x</span> = <span style="color:rgb(190, 190, 235);">25</span> + <span style="color:gold;">" apples."</span>;
+                            <span style="color:crimson;">let</span> <span style="color:aquamarine;">z</span> = <span style="color:aquamarine;">x</span> + <span style="color:aquamarine;">y</span>;
+                            <span style="color:violet;">console</span>.<span style="color:bisque;">log</span>(<span style="color:aquamarine;">z</span>);    
+                        </span>
+                    </pre>
+                </div>
+
+                <div style="margin-bottom: 50px;">
+                    <h3>If/Else Statement</h3>
+                    <pre style="background-color: rgb(6, 7, 22); color: white; width: 40%; padding: 15px; padding-bottom: 3px; border-radius: 10px;">
+                        <span style="position: relative; right: 250px;">
+                            <span style="color:goldenrod;">if</span>(<span style="color:aquamarine;">fruit</span> === <span style="color: gold;">"orange"</span>) {
+                              <span style="color: crimson;">return</span> <span style="color:deepskyblue;">true</span>;
+                              <span style="color: crimson;">continue</span>;
+                            } 
+
+                            <span style="color:goldenrod;">else</span> {
+                              <span style="color: crimson;">return</span> <span style="color:deepskyblue;">false</span>;
+                              <span style="color: crimson;">break</span>;
+                            }
+                        </span>
+                    </pre>
+                </div>
+
+                <div style="margin-bottom: 50px;">
+                    <h3>Functions</h3>
+                    <pre style="background-color: rgb(6, 7, 22); color: white; width: 40%; padding: 15px; padding-bottom: 3px; border-radius: 10px;">
+                        <span style="position: relative; right: 250px;">
+                            <span style="color: goldenrod;">function</span> <span style="color:cornflowerblue">addition</span>(<span style="color: rgb(190, 190, 235);">option</span>) {
+                              <span style="color: crimson;">let</span> <span style="color:aquamarine;">a</span> = <span style="color: rgb(190, 190, 235);">10</span>;
+                              <span style="color: crimson;">const</span> <span style="color:aquamarine;">b</span> = <span style="color:aquamarine;">a</span> + <span style="color: rgb(190, 190, 235);">option</span>;
+                              <span style="color:violet;">console</span>.<span style="color:bisque;">log</span>(<span style="color:aquamarine">b</span>);
+                            }
+
+                            <span style="color:cornflowerblue">addition</span>(<span style="color: rgb(190, 190, 235);">20</span>);
+
+                            <span style="color: rgb(88, 88, 88);">//</span> <span style="color: rgb(161, 161, 161);">Gray part is a comment</span>
+                        </span>
+                    </pre>
+                </div>
+
+                <div style="margin-bottom: 50px;">
+                    <h3>Arrays & Objects</h3>
+                    <pre style="background-color: rgb(6, 7, 22); color: white; width: 40%; padding: 15px; padding-bottom: 3px; border-radius: 10px;">
+                        <span style="position: relative; right: 250px;">
+                            <span style="color: rgb(88, 88, 88);">//</span> <span style="color: rgb(161, 161, 161);">Bellow is an array</span>
+
+                            <span style="color:crimson;">const</span> <span style="color:aquamarine;">numbers</span> = [<span style="color:rgb(190, 190, 235)">1</span>, <span style="color:rgb(190, 190, 235)">2</span>, <span style="color:rgb(190, 190, 235)">3</span>];
+
+                            <span style="color: rgb(88, 88, 88);">//</span> <span style="color: rgb(161, 161, 161);">Bellow is an object</span>
+
+                            <span style="color:crimson;">const</span> <span style="color:aquamarine;">cake</span> = {
+                              <span style="color: magenta;">flavor</span>: <span style="color:gold">"Chocolate"</span>,
+                              <span style="color: magenta;">tasty</span>: <span style="color: deepskyblue;">true</span>,
+                              <span style="color: magenta;">designer</span>: <span style="color:gold">"John"</span>,
+                              <span style="color: magenta;">cost</span>: <span style="color:rgb(190, 190, 235)">25</span>
+                            }
+                        </span>
+                    </pre>
+                </div>
+
+                <div style="margin-bottom: 100px;">
+                    <h3>Document Object Model (DOM)</h3>
+                    <pre style="background-color: rgb(6, 7, 22); color: white; width: 40%; padding: 15px; padding-bottom: 3px; border-radius: 10px;">
+                        <span style="position: relative; right: 250px;">
+                            <span style="color:crimson;">let</span> <span style="color:aquamarine;">btn</span> = <span style="color:violet;">document</span>.<span style="color:bisque;">getElementById</span>(<span style="color:gold;">'btn'</span>);
+                            <span style="color:crimson;">let</span> <span style="color:aquamarine;">body</span> = <span style="color:violet;">document</span>.<span style="color:bisque;">querySelector</span>(<span style="color:gold;">'body'</span>);
+
+                            <span style="color: violet;">btn</span>.<span style="color: bisque;">addEventListener</span>(<span style="color:gold">'click'</span>, <span style="color: cornflowerblue;">function</span>() {
+                              <span style="color:violet">body</span>.<span style="color:bisque">innerHTML</span> = <span style="color:gold">"Hello World!"</span>;
+                              <span style="color:violet">body</span>.<span style="color:violet">style</span>.<span style="color:bisque">backgroundColor</span> = <span style="color:gold">"white"</span>;
+                              <span style="color:violet">btn</span>.<span style="color:violet">style</span>.<span style="color:bisque">fontSize</span> = <span style="color:gold">"3em"</span>;
+                              <span style="color:violet">btn</span>.<span style="color:violet">style</span>.<span style="color:bisque">color</span> = <span style="color:gold">"#FFFF00"</span>;
+                            });
+                        </span>
+                    </pre>
+                </div>
+
+                <h2 style="margin-bottom: 50px; border: 3px solid rgb(6, 7, 22); width: 50%; border-radius: 7px; padding: 10px; text-align: center;">More Information About JavaScript</h2>
+
+                <div class="grid-container-2">
+
+                    <div class="info-prop" style="max-width: 86%;">Creator:</div><div class="info-val" style="position: relative; right: 35px; min-width: 105%;">Brendan Eich</div>
+                    <div class="info-prop" style="max-width: 86%;">Released in:</div><div class="info-val" style="position: relative; right: 35px; min-width: 105%;">1995</div>
+                    <div class="info-prop" style="max-width: 86%;">Usage by all websites:</div><div class="info-val" style="position: relative; right: 35px; min-width: 105%;">95.2%</div>
+                    <div class="info-prop" style="max-width: 86%;">ES5 released in:</div><div class="info-val" style="position: relative; right: 35px; min-width: 105%;">2009</div>
+                    <div class="info-prop no-border-bottom" style="max-width: 86%;">ES6 released in:</div><div class="info-val no-border-bottom" style="position: relative; right: 35px; min-width: 105%;"> 2015</div>
+
+                </div>
+
+                <figure>
+                    <img src="D:\VS Code\My Programs\Online Websites\Dr. Code\JS-logo.png" type="image/png" id="lang-logo" style="padding: 0;">
+                    <figcaption style="background-color: gold; color: rgb(229, 238, 238); width: 12.45%; color: rgb(6, 7, 22);" id="figs">JavaScript Logo</figcaption>
+                </figure>
+
+                <p style="position: relative; bottom: 100px;"><strong>Note:</strong> This website doesn't teach full web development. If you want to learn more or start a course, press "Learn more" button bellow.</p>
+
+            </div>
+
+            <a href="https://w3schools.com/" target="_blank" id="learn-more-btn">Learn more JS</a>
+            <a href="D:\VS Code\My Programs\Online Websites\Dr. Code\(Dr Code) index.html" id="return-btn">Return to home</a>
+        </div>
+
+        <footer>
+            <div>
+                <h1>About</h1>
+                <ul>
+                    <li style="position: relative; right: 40px;">Name: <span class="info-values">Dr. Code</span></li>
+                    <li style="position: relative; right: 40px;">Created in: <span class="info-values">8/17/2021</span></li>
+                    <li style="position: relative; right: 40px;">Author: <span class="info-values">Maximus</span></li>
+                    <li style="position: relative; right: 40px;">Web created with: <span class="info-values">HTML / CSS / SASS</span></li>
+                </ul>
+            </div>
+
+            <div>
+                <h1>Languages</h1>
+                <ul>
+                    <li><a href="D:\VS Code\My Programs\Online Websites\Dr. Code\More pages\(Dr Code) html.html" id="html-a">HTML</a></li>
+                    <li><a href="D:\VS Code\My Programs\Online Websites\Dr. Code\More pages\(Dr Code) css.html" id="css-a">CSS</a></li>
+                    <li><a href="D:\VS Code\My Programs\Online Websites\Dr. Code\More pages\(Dr Code) js.html" id="js-a">JS</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h1>Follow</h1>
+                <ul>
+                    <li><a href="https://www.youtube.com/channel/UCmBM6lZzHfxZmBvSiMMy7jA" target="_blank" class="youtube-a">YouTube (Maxisus)</a></li>
+                    <li><a href="https://www.youtube.com/channel/UC9Q01iV8V-dO18DOCt3X5ng" target="_blank" class="youtube-a">YouTube (Flatcat)</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

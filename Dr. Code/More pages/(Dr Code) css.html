@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+    <!-- Head -->
+
+    <head>
+        <!-- Meta -->
+        <meta charset="UTF-8">
+        <meta name="description" content="Learn and refer to website development">
+        <meta name="author" content="Maximus">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Title -->
+        <title>Dr. Code</title>
+        <!-- CSS -->
+        <link href="D:\VS Code\My Programs\Sass\(Dr Code) style.css" rel="stylesheet">
+        <!-- Favicon -->
+        <link href="D:\VS Code\My Programs\Online Websites\Dr. Code\straular-logo.png" rel="shortcut icon" type="image/png">
+    </head>
+
+    <!-- Nav bar -->
+
+    <header style="transform: translateY(0px);" aria-hidden="true">
+
+        <ul id="logo">
+            <li>Dr. Code<br><span id="logo-span">Web development information</span></li>
+        </ul>
+
+        <nav>
+            <a href="D:\VS Code\My Programs\Online Websites\Dr. Code\More pages\(Dr Code) html.html">HTML</a>
+            <a id="current">CSS</a>
+            <a href="D:\VS Code\My Programs\Online Websites\Dr. Code\More pages\(Dr Code) js.html">JavaScript</a>
+        </nav>
+
+        <a href="D:\VS Code\My Programs\Online Websites\Dr. Code\(Dr Code) index.html" id="home-btn">Home</a>
+
+    </header>
+
+    <!-- Body -->
+
+    <body>
+        <div class="content">
+            <section style="border: 2px solid rgb(6, 7, 22); text-align: center; width: 30%; border-radius: 10px; margin-bottom: 100px;">
+                <h1 style="font-size: 4rem;">CSS</h1><br><span style="color: dodgerblue;position: relative;bottom: 50px;">Cascading Style Sheets</span>
+            </section>
+
+            <h2>What is CSS?</h2>
+            <p style="width: 87ch; margin-bottom: 100px;">CSS is a stylesheet that styles HTML documents, using only html in a website would not look visually-appealing. There are some frameworks or extensions for CSS also, like <a href="https://sass-lang.com/" class="web-link" target="_blank">SASS</a>, <a href="https://getbootstrap.com/" class="web-link" target="_blank">Bootstrap</a>, and more</p>
+
+            <h2>How is CSS used?</h2>
+            <p style="width: 87ch; margin-bottom: 100px;">CSS can be used to style elements in a HTML file. It can style elements with colors, background colors, borders, transitions, positions, height, width, and even more. Not only CSS styles HTML documents, but also arrange elements nicely!</p>
+
+            <h2>Should I learn CSS?</h2>
+            <p style="width: 87ch; margin-bottom: 100px;">Learning CSS is very important for a website. Without CSS, we would use raw HTML and the web page won't look fantastic. It is recommened to learn CSS after HTML, because CSS <strong>only</strong> styles and organize HTML documents.</p>
+
+            <h2>Is CSS easy?</h2>
+            <p style="width: 87ch; margin-bottom: 120px;">CSS is simple to read, write, and understand this programming langauge.</p>
+
+
+            <h2 style="margin-bottom: 50px; border: 3px solid rgb(6, 7, 22); width: 50%; border-radius: 7px; padding: 10px; text-align: center;">CSS Syntax Examples</h2>
+
+            <div style="width: 100%; text-align: left;">
+
+                <div style="margin-bottom: 50px;">
+                    <h3>Colors & Backgrounds</h3>
+                    <pre style="background-color: rgb(6, 7, 22); color: white; width: 40%; padding: 15px; padding-bottom: 3px; border-radius: 10px;">
+                        <span style="position: relative; right: 250px;">
+                            <span style="color: hotpink">div</span> {
+                              <span style="color:rgb(0, 110, 255)">color</span>: <span style="color:tomato">black</span>;
+                              <span style="color:rgb(0, 110, 255)">background</span>: <span style="color:plum">linear-gradient</span>(<span style="color: tomato">to right</span>, <span style="color: tomato">red</span>, <span style="color:tomato">blue</span>);
+                            }
+  
+                            <span style="color: hotpink">header</span> {
+                              <span style="color:rgb(0, 110, 255)">background-color</span>: <span style="color:tomato">lightBlue</span>;
+                            }
+                        </span>
+                    </pre>
+                </div>
+
+                <div style="margin-bottom: 50px;">
+                    <h3>Sizes & Unit Measurements</h3>
+                    <pre style="background-color: rgb(6, 7, 22); color: white; width: 40%; padding: 15px; padding-bottom: 3px; border-radius: 10px;">
+                        <span style="position: relative; right: 250px;">
+                            <span style="color: hotpink">html</span> {
+                              <span style="color:rgb(0, 110, 255)">font-size</span>: <span style="color:tomato">18px</span>;
+                              <span style="color:rgb(0, 110, 255)">min-width</span>: <span style="color:tomato">30%</span>;
+                              <span style="color:rgb(0, 110, 255)">max-width</span>: <span style="color:tomato">80%</span>;
+                            }
+    
+                            <span style="color:darkcyan">#login-btn</span> {
+                              <span style="color:rgb(0, 110, 255)">font-size</span>: <span style="color:tomato">2.6rem</span>;
+                              <span style="color:rgb(0, 110, 255)">width</span>: <span style="color:tomato">10em</span>;
+                              <span style="color:rgb(0, 110, 255)">height</span>: <span style="color:tomato">95%</span>;
+                            }
+                        </span>
+                    </pre>
+                </div>
+
+                <div style="margin-bottom: 50px;">
+                    <h3>Display & Positions</h3>
+                    <pre style="background-color: rgb(6, 7, 22); color: white; width: 40%; padding: 15px; padding-bottom: 3px; border-radius: 10px;">
+                        <span style="position: relative; right: 250px;">
+                            <span style="color:indianred">.grid-container</span> {
+                              <span style="color:rgb(0, 110, 255)">display</span>: <span style="color:tomato">grid</span>;
+                              <span style="color:rgb(0, 110, 255)">grid-template-columns</span>: <span style="color:plum">repeat</span>(<span style="color:tomato">250px</span>,<span style="color:tomato"> 4</span>);
+                              <span style="color:rgb(0, 110, 255)">grid-template-rows</span>: <span style="color:plum">repeat</span>(<span style="color:tomato">20rem</span>,<span style="color:tomato"> 9</span>);
+                              <span style="color:rgb(0, 110, 255)">grid-gap</span>: <span style="color:tomato">24px</span>;
+                            }
+
+                            <span style="color:indianred">.flex-container</span> {
+                              <span style="color:rgb(0, 110, 255)">display</span>: <span style="color:tomato">flex</span>;
+                              <span style="color:rgb(0, 110, 255)">justify-content</span>: <span style="color:tomato">center</span>;
+                            }
+      
+                            <span style="color: hotpink">nav</span> {
+                              <span style="color:rgb(0, 110, 255)">position</span>: <span style="color:plum">releative</span>;
+                              <span style="color:rgb(0, 110, 255)">left</span>: <span style="color:tomato">30px</span>;
+                              <span style="color:rgb(0, 110, 255)">top</span>: <span style="color:tomato">10%</span>;
+                            }
+                        </span>
+                    </pre>
+                </div>
+
+                <div style="margin-bottom: 100px;">
+                    <h3>Pseudo Classes</h3>
+                    <pre style="background-color: rgb(6, 7, 22); color: white; width: 40%; padding: 15px; padding-bottom: 3px; border-radius: 10px;">
+                        <span style="position: relative; right: 250px;">
+                            <span style="color:hotpink;">div</span><span style="color:darkcyan">#detail</span><span style="color:lightsalmon">:hover</span> {
+                              <span style="color:rgb(0, 110, 255)">color</span>: <span style="color:tomato">darkViolet</span>;
+                              <span style="color:rgb(0, 110, 255)">border</span>: <span style="color:tomato">5px <span style="color:plum">solid</span> gray</span>;
+                            }
+
+                            <span style="color:hotpink">a<span style="color:lightsalmon">:visited</span></span> {
+                              <span style="color:rgb(0, 110, 255)">float</span>: <span style="color:plum">right</span>;
+                              <span style="color:rgb(0, 110, 255)">text-decoration</span>: <span style="color:plum">underline</span>;
+                            }
+      
+                            <span style="color: hotpink">img</span>[<span style="color:cyan;">href</span>*=<span style="color:gold">"car.png"</span>]<span style="color:lightsalmon">:active</span> {
+                              <span style="color:rgb(0, 110, 255)">position</span>: <span style="color:plum">fixed</span>;
+                              <span style="color:rgb(0, 110, 255)">transform</span>: <span style="color:plum;">translateX</span>(<span style="color:tomato;">-29px</span>);
+                            }
+                        </span>
+                    </pre>
+                </div>
+
+                <h2 style="margin-bottom: 50px; border: 3px solid rgb(6, 7, 22); width: 50%; border-radius: 7px; padding: 10px; text-align: center;">More Information About CSS</h2>
+
+                <div class="grid-container-2">
+
+                    <div class="info-prop" style="max-width: 86%;">Creator:</div><div class="info-val" style="position: relative; right: 2rem; min-width: 105%;">Dave Shea</div>
+                    <div class="info-prop" style="max-width: 86%;">Released in:</div><div class="info-val" style="position: relative; right: 2rem; min-width: 105%;">1996</div>
+                    <div class="info-prop" style="max-width: 86%;">Usage by all websites:</div><div class="info-val" style="position: relative; right: 2rem; min-width: 105%;">96.6%</div>
+                    <div class="info-prop" style="max-width: 86%;">CSS 2 released in:</div><div class="info-val" style="position: relative; right: 2rem; min-width: 105%;">1998</div>
+                    <div class="info-prop no-border-bottom" style="max-width: 86%;">CSS 3 released in:</div><div class="info-val no-border-bottom" style="position: relative; right: 2rem; min-width: 105%;"> 1999</div>
+
+                </div>
+
+                <figure>
+                    <img src="D:\VS Code\My Programs\Online Websites\Dr. Code\CSS-logo.png" type="image/png" id="lang-logo">
+                    <figcaption id="figs" style="background-color: rgb(0, 89, 255); color: rgb(229, 238, 238);">CSS Logo</figcaption>
+                </figure>
+
+                <p style="position: relative; bottom: 100px"><strong>Note:</strong> This website doesn't teach full web development. If you want to learn more or start a course, press "Learn more" button bellow.</p>
+
+            </div>
+
+            <a href="https://w3schools.com/" target="_blank" id="learn-more-btn">Learn more CSS</a>
+            <a href="D:\VS Code\My Programs\Online Websites\Dr. Code\(Dr Code) index.html" id="return-btn">Return to home</a>
+        </div>
+
+        <footer>
+            <div>
+                <h1>About</h1>
+                <ul>
+                    <li style="position: relative; right: 40px;">Name: <span class="info-values">Dr. Code</span></li>
+                    <li style="position: relative; right: 40px;">Created in: <span class="info-values">8/17/2021</span></li>
+                    <li style="position: relative; right: 40px;">Author: <span class="info-values">Maximus</span></li>
+                    <li style="position: relative; right: 40px;">Web created with: <span class="info-values">HTML / CSS / SASS</span></li>
+                </ul>
+            </div>
+
+            <div>
+                <h1>Languages</h1>
+                <ul>
+                    <li><a href="D:\VS Code\My Programs\Online Websites\Dr. Code\More pages\(Dr Code) html.html" id="html-a">HTML</a></li>
+                    <li><a href="D:\VS Code\My Programs\Online Websites\Dr. Code\More pages\(Dr Code) css.html" id="css-a">CSS</a></li>
+                    <li><a href="D:\VS Code\My Programs\Online Websites\Dr. Code\More pages\(Dr Code) js.html" id="js-a">JS</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h1>Follow</h1>
+                <ul>
+                    <li><a href="https://www.youtube.com/channel/UCmBM6lZzHfxZmBvSiMMy7jA" target="_blank" class="youtube-a">YouTube (Maxisus)</a></li>
+                    <li><a href="https://www.youtube.com/channel/UC9Q01iV8V-dO18DOCt3X5ng" target="_blank" class="youtube-a">YouTube (Flatcat)</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
